@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+#btn-container{
+    /* border: 1px solid pink; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+#nav{
+    display: flex;
+    padding: 0.8rem;
+    width: 100%;
+    height: 9vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(51, 28, 73);
+}
+#nav h1,span,.user-icon{
+    margin-right: .8rem;
+}
+#caption{
+    color: rgb(228, 210, 51);
+    font-size: 1.2rem;
+}
+#name,.todo-icon,.user-icon{
+    font-size: 1.7rem;
+}
+.todo-icon{
+    color: rgb(228, 210, 51);
+}
+
+#input, #search{
+    color: white;
+    width: 30vw;
+    height: 6vh;
+    background-color: rgba(165, 146, 146, 0.2);
+    border-radius: 6px;
+    border:1px solid rgba(104, 101, 101, 0.698);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    min-width: 250px;
+    flex: 2;
+}
+#input:focus, #search:focus{
+   outline: none;
+}
+#btn-container #search{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 10vw;
+    min-width: 140px;
+    text-align: center;
+    flex:1;
+}
+#todobtn{
+    background: transparent;
+    border: 1px solid rgb(152, 48, 161);
+    border-radius: 5px;
+    width: 6vw;
+    min-width: 100px;
+    height: 6vh;
+    margin-top: 2rem;
+    background-color:transparent;
+    color: rgb(207, 41, 207);
+    padding: .7rem;
+    margin-left: .7rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#todo-Container{
+    border: 1px solid grey;
+    background-color: rgb(24, 20, 20);
+    position: relative;
+    border-radius: 4px;
+    margin: 2rem auto;
+    width: 33vw;
+    min-width: 400px;
+    /* max-width: 33vw; */
+    height: 70vh;
+    overflow: hidden;
+}
+#todo-Container:hover{
+    overflow-y: scroll;
+}
+#todo-Container .tododiv{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(136, 41, 136);
+    border-radius: 6px;
+    background-color:rgba(108, 32, 143, 0.5);
+    color: white;
+    padding: .8rem;
+    width: 30vw;
+    min-width: 360px;
+    margin: 1.3rem 0;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 1rem 0rem rgba(0, 0, 0, 0.897);
+}
+ 
+.hide{
+    display: none !important;
+}
+.delete{
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(75, 72, 82);
+    border-radius: 9px;
+}
+
+
+@media screen and(min-width:500){
+    /* #search{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 100vw;
+        text-align: center;
+    } */
+}
+
+ 
+ 
+
+ 
