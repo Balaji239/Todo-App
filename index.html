@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo app</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header id="header">
-        <h1 id=left>
-            <span id="name">TODO  <i class="fas fa-clipboard-list todo-icon"></i></span> 
-           
-            <span id=caption> Your Key To Successful Move, Lets Get Listed </span>
-        </h1>
-        <i class="far fa-user user-icon"></i>
+      <h1 id="left">
+        <span id="name">
+          TODO
+          <i class="fas fa-clipboard-list todo-icon"></i>
+        </span>
+
+        <span id="caption">Your Key To Successful Move, Lets Get Listed</span>
+      </h1>
+      <i class="far fa-user user-icon"></i>
     </header>
-    
+
     <div id="btn-container">
-        <input type="text" id=input placeholder="What you want to do..">
-        <button id=todobtn> Add Todo</button>
-        <input type="text" id=search placeholder="Search">
+      <input type="text" id="input" placeholder="What you want to do.." />
+      <button id="todobtn">Add Todo</button>
+      <input type="text" id="search" placeholder="Search" />
     </div>
-    <span id=Task-count>pending..</span>
-    
-    <div id=todo-Container>
-    </div>
-   
-</body>
-<script src="script.js"></script>
+    <span id="Task-count">pending..</span>
+
+    <div id="todo-Container"></div>
+  </body>
+  <script src="script.js"></script>
 </html>
